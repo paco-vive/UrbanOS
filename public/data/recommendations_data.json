@@ -1,0 +1,183 @@
+{
+  "recommendations": {
+    "1": {
+      "healthScore": 72,
+      "recommendations": [
+        {
+          "change": "Add Urban Park (2 hectares)",
+          "impact": "+8% Air Quality, +12% Health Score",
+          "type": "park",
+          "priority": "high",
+          "estimatedCost": "$2.3M USD",
+          "timeline": "18 months",
+          "description": "Create a central green space with native vegetation to improve air quality and provide recreational areas for residents."
+        },
+        {
+          "change": "Green Building Retrofit",
+          "impact": "+5% Energy Efficiency, +6% Health Score",
+          "type": "building",
+          "priority": "medium",
+          "estimatedCost": "$1.8M USD",
+          "timeline": "12 months",
+          "description": "Retrofit existing buildings with green technologies, solar panels, and improved insulation."
+        },
+        {
+          "change": "Pedestrian Zone Expansion",
+          "impact": "+10% Air Quality, +15% Walkability",
+          "type": "infrastructure",
+          "priority": "medium",
+          "estimatedCost": "$900K USD",
+          "timeline": "8 months",
+          "description": "Expand pedestrian-only areas to reduce vehicle emissions and encourage walking."
+        }
+      ]
+    },
+    "2": {
+      "healthScore": 58,
+      "recommendations": [
+        {
+          "change": "Air Filtration Infrastructure",
+          "impact": "+15% Air Quality, +10% Health Score",
+          "type": "infrastructure",
+          "priority": "high",
+          "estimatedCost": "$4.2M USD",
+          "timeline": "24 months",
+          "description": "Install industrial-grade air filtration systems and green barriers to reduce pollution."
+        },
+        {
+          "change": "Community Health Center",
+          "impact": "+20% Health Access, +8% Health Score",
+          "type": "building",
+          "priority": "high",
+          "estimatedCost": "$3.1M USD",
+          "timeline": "15 months",
+          "description": "Build a modern healthcare facility with specialized services for industrial area residents."
+        },
+        {
+          "change": "Industrial Waste Management",
+          "impact": "+12% Environmental Health, +7% Health Score",
+          "type": "infrastructure",
+          "priority": "high",
+          "estimatedCost": "$2.7M USD",
+          "timeline": "20 months",
+          "description": "Implement advanced waste treatment systems to reduce environmental contamination."
+        }
+      ]
+    },
+    "3": {
+      "healthScore": 84,
+      "recommendations": [
+        {
+          "change": "Smart Traffic System",
+          "impact": "+3% Air Quality, +5% Mobility Score",
+          "type": "infrastructure",
+          "priority": "medium",
+          "estimatedCost": "$1.5M USD",
+          "timeline": "8 months",
+          "description": "Implement intelligent traffic lights and flow optimization to reduce congestion."
+        },
+        {
+          "change": "Bike Lane Network",
+          "impact": "+5% Air Quality, +10% Active Transportation",
+          "type": "infrastructure",
+          "priority": "medium",
+          "estimatedCost": "$800K USD",
+          "timeline": "6 months",
+          "description": "Create protected bike lanes connecting residential areas to key destinations."
+        },
+        {
+          "change": "Community Garden Initiative",
+          "impact": "+4% Food Security, +6% Community Wellness",
+          "type": "park",
+          "priority": "low",
+          "estimatedCost": "$300K USD",
+          "timeline": "4 months",
+          "description": "Establish community gardens to promote local food production and social interaction."
+        }
+      ]
+    },
+    "4": {
+      "healthScore": 69,
+      "recommendations": [
+        {
+          "change": "Water Quality Improvement",
+          "impact": "+18% Water Quality, +9% Health Score",
+          "type": "infrastructure",
+          "priority": "high",
+          "estimatedCost": "$3.8M USD",
+          "timeline": "30 months",
+          "description": "Upgrade water treatment facilities and distribution systems for cleaner water access."
+        },
+        {
+          "change": "Flood Prevention System",
+          "impact": "+25% Flood Resilience, +8% Safety Score",
+          "type": "infrastructure",
+          "priority": "high",
+          "estimatedCost": "$5.2M USD",
+          "timeline": "36 months",
+          "description": "Install drainage systems and flood barriers to protect against seasonal flooding."
+        }
+      ]
+    },
+    "5": {
+      "healthScore": 91,
+      "recommendations": [
+        {
+          "change": "Solar Energy Expansion",
+          "impact": "+12% Renewable Energy, +4% Sustainability",
+          "type": "infrastructure",
+          "priority": "low",
+          "estimatedCost": "$2.1M USD",
+          "timeline": "12 months",
+          "description": "Install additional solar panels on public buildings and create solar gardens."
+        },
+        {
+          "change": "Cultural Center Development",
+          "impact": "+15% Community Engagement, +5% Quality of Life",
+          "type": "building",
+          "priority": "medium",
+          "estimatedCost": "$1.9M USD",
+          "timeline": "18 months",
+          "description": "Build a community cultural center for events, education, and social activities."
+        }
+      ]
+    }
+  },
+  "priorityLevels": {
+    "high": {
+      "color": "#ef4444",
+      "bgColor": "#fecaca",
+      "textColor": "#991b1b",
+      "description": "Urgent action required"
+    },
+    "medium": {
+      "color": "#f59e0b",
+      "bgColor": "#fed7aa", 
+      "textColor": "#9a3412",
+      "description": "Important but not urgent"
+    },
+    "low": {
+      "color": "#10b981",
+      "bgColor": "#bbf7d0",
+      "textColor": "#14532d",
+      "description": "Nice to have improvement"
+    }
+  },
+  "impactCategories": {
+    "park": {
+      "icon": "🌳",
+      "name": "Green Infrastructure",
+      "description": "Parks, gardens, and natural spaces"
+    },
+    "building": {
+      "icon": "🏢",
+      "name": "Building & Facilities", 
+      "description": "Healthcare, community, and public buildings"
+    },
+    "infrastructure": {
+      "icon": "🏗️",
+      "name": "Urban Infrastructure",
+      "description": "Transportation, utilities, and systems"
+    }
+  }
+}
