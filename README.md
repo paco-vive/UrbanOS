@@ -1,37 +1,37 @@
 # 🌆 UrbanOS
 
-UrbanOS es una plataforma web diseñada para apoyar a **planificadores urbanos** en la toma de decisiones frente a los **retos del cambio climático** y el **crecimiento urbano**. Su propósito es analizar zonas de la ciudad y ofrecer **recomendaciones personalizadas** para mejorar la infraestructura, el medio ambiente y la sostenibilidad urbana.
+**UrbanOS** is a web platform designed to support **urban planners** in making informed decisions in response to **climate change** and **urban growth**. Its goal is to analyze city zones and provide **personalized recommendations** to improve infrastructure, environmental health, and urban sustainability.
 
 ---
 
-## 🧭 Descripción general
+## 🧭 Overview
 
-UrbanOS permite visualizar zonas de la ciudad y consultar información clave sobre:
-- 🌳 **Vegetación y recursos naturales**
-- 🏥 **Infraestructura y servicios**
-- 🌡️ **Temperatura y calidad del aire**
-- 💡 **Recomendaciones urbanas personalizadas**
+UrbanOS allows users to visualize different areas of a city and access key information such as:
+- 🌳 **Vegetation and natural resources**
+- 🏥 **Infrastructure and services**
+- 🌡️ **Temperature and air quality**
+- 💡 **Smart recommendations for urban improvement**
 
-Cada zona se representa en un mapa interactivo con datos que ayudan a identificar áreas prioritarias para el desarrollo sostenible.
-
----
-
-## 🏗️ Tecnologías utilizadas
-
-- ⚛️ **Next.js** (con **TypeScript**)
-- 🎨 **Tailwind CSS** para estilos
-- 🗺️ **React Leaflet** y **Leaflet.js** para mapas interactivos
-- 📦 **Vercel** (despliegue recomendado)
-- 🧭 **React Icons** para íconos visuales
-- ⚙️ **Node.js** (para el entorno de ejecución)
+Each area is represented on an interactive map with detailed data to help identify priority zones for sustainable development.
 
 ---
 
-## 🚀 Instalación y ejecución local
+## 🏗️ Tech Stack
 
-Sigue estos pasos para correr el proyecto localmente:
+- ⚛️ **Next.js** (with **TypeScript**)
+- 🎨 **Tailwind CSS** for styling
+- 🗺️ **React Leaflet** and **Leaflet.js** for interactive maps
+- 📦 **Vercel** (recommended deployment)
+- 🧭 **React Icons** for visual icons
+- ⚙️ **Node.js** as runtime environment
 
-1. **Clonar el repositorio**
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository**
    ```bash
    git clone https://github.com/paco-vive/UrbanOS.git
    cd UrbanOS
