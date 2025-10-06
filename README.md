@@ -19,7 +19,6 @@ Each area is represented on an interactive map with detailed data to help identi
 ## 🏗️ Tech Stack
 
 - ⚛️ **Next.js** (with **TypeScript**)
-- 🎨 **Tailwind CSS** for styling
 - 🗺️ **React Leaflet** and **Leaflet.js** for interactive maps
 - 📦 **Vercel** (recommended deployment)
 - 🧭 **React Icons** for visual icons
@@ -35,3 +34,5 @@ Follow these steps to run the project locally:
    ```bash
    git clone https://github.com/paco-vive/UrbanOS.git
    cd UrbanOS
+   npm install 
+   npm run dev
